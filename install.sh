@@ -1,10 +1,10 @@
 #!/bin/bash
 # Installs Taiko Drum for Mac. Safe to run again: it updates in place.
 #
-#   curl -fsSL https://raw.githubusercontent.com/ErnestAu/taiko-drum-mac/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/ErnestAu/iine-taiko-drum-mac/main/install.sh | bash
 set -euo pipefail
 
-REPO="ErnestAu/taiko-drum-mac"
+REPO="ErnestAu/iine-taiko-drum-mac"
 DEST="$HOME/Taiko Drum"
 
 step() { printf '\n==> %s\n' "$1"; }
